@@ -1,0 +1,77 @@
+/*
+    COLORS
+*/
+
+.orange-bg {
+    background-color: #FF6900;
+}
+
+.grey-bg {
+    background-color: #EAEAEA;
+}
+
+.green-bg {
+    background-color: #008000;
+}
+
+.red-bg {
+    background-color: #FF0000;
+}
+
+.white-bg {
+    background-color: #FFFFFF;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.white-font {
+    color: #FFFFFF;
+}
+
+.black-font {
+    color: #000000;
+}
+
+.main-img-container a,
+.nav-bar a,
+.footer-container a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.tag-box,
+.first-tag-box {
+    font-weight: bold;
+}
+
+.clothes-name {
+    font-size: 13px;
+}
+
+.nav-bar a,
+.item-title,
+.discounted-price,
+.normal-price {
+    font-weight: bold;
+}
+
+.item-title {
+    font-size: 15px;
+}
+
+.discounted-price,
+.normal-price {
+    color: #FF0000;
+}
+
+.previous-price {
+    text-decoration: line-through;
+}
+
+.heart-box,
+.social-links-container {
+    font-size: 30px;
+}
+
