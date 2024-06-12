@@ -7,14 +7,13 @@
     display: flex;
     align-items: center;
     position: fixed;
-    z-index: 1;
-    width: 100vw;
+    z-index: 99;
+    width: 100%;
 }
 
 .header-container img {
     height: 40px;
     display: block;
-    vertical-align: middle;
 }
 
 .nav-bar {
@@ -54,11 +53,20 @@
 .main-img-container-1 {
     height: 700px;
     width: 100%;
-    /* background-color: green */
 }
 
 .main-container img {
     height: 600px;
+    border-radius: 10px;
+}
+
+.hover-first-img,
+.hover-second-img,
+.hover-third-img,
+.hover-fourth-img,
+.hover-fifth-img,
+.hover-sixth-img{
+    display: none;
 }
 
 .main-row-top, .main-row-down {
@@ -86,6 +94,7 @@
     text-align: center;
     position: absolute;
     bottom: 50px;
+    border-radius: 5px;
 }
 
 .first-tag-box {
@@ -104,6 +113,7 @@
     padding: 15px;
     top: 5px;
     right: 0px;
+    border-radius: 3px;
 }
 
 /* 
@@ -144,6 +154,24 @@
     HOVER
 */
 
-.main-container img:nth-child(1):hover {
-    background-image: url('../img/1b.webp');
+.img-container:hover .first-img,
+.img-container:hover .second-img,
+.img-container:hover .third-img,
+.img-container:hover .fourth-img,
+.img-container:hover .fifth-img,
+.img-container:hover .sixth-img {
+    display: none;
+}
+
+.img-container:hover .hover-first-img,
+.img-container:hover .hover-second-img,
+.img-container:hover .hover-third-img,
+.img-container:hover .hover-fourth-img,
+.img-container:hover .hover-fifth-img,
+.img-container:hover .hover-sixth-img {
+    display: inline;
+}
+
+.heart-box:hover {
+    color: #FF0000;
 }
