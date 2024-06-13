@@ -60,15 +60,6 @@
     border-radius: 10px;
 }
 
-.hover-first-img,
-.hover-second-img,
-.hover-third-img,
-.hover-fourth-img,
-.hover-fifth-img,
-.hover-sixth-img{
-    display: none;
-}
-
 .main-row-top, .main-row-down {
     display: flex;
     justify-content: space-between;
@@ -153,6 +144,15 @@
 /* 
     HOVER
 */
+
+.hover-first-img,
+.hover-second-img,
+.hover-third-img,
+.hover-fourth-img,
+.hover-fifth-img,
+.hover-sixth-img{
+    display: none;
+}
 
 .img-container:hover .first-img,
 .img-container:hover .second-img,
